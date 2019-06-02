@@ -26,6 +26,18 @@
       >
         {{ link.text }}
     </v-btn>
+    <v-flex xs1>
+      <v-layout
+              align-center
+              justify-center
+      >
+        <img
+                src="@/assets/img/notification.png"
+                style="width: 36px; height: 36px;"
+                alt="Notification_icon"/>
+      </v-layout>
+
+    </v-flex>
 
   
   </v-toolbar>
